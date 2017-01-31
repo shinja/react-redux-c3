@@ -1,13 +1,11 @@
 import React from 'react'
-import CSSModules from 'react-css-modules'
-import styles from './loading-spinner.cssmodule.scss'
 
 const LoadingSpinner = () => (
-  <div>
-    <div styleName='loading' />
-  </div>
+  <i className='fa fa-spinner fa-spin' style={{
+    fontSize: 36
+  }} />
 )
 
 LoadingSpinner.propTypes = {}
 
-export default CSSModules(LoadingSpinner, styles)
+export default LoadingSpinner
