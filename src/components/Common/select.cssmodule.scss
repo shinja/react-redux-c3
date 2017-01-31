@@ -1,0 +1,52 @@
+@import '../../styles/variables/colors';
+
+.selectWrap {
+  display: inline-block;
+  border: 1px solid #c5ccd2;
+  border-radius: 30px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  overflow: hidden;
+  height: 23px;
+  position: relative;
+  margin: 0 3px -5px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    background-image: url('../../../public/images/select-arrow.png');
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    right: 0.6rem;
+    top: 50%;
+    margin-top: -12px;
+    width: 25px;
+    height: 25px;
+    z-index: 0;
+  }
+
+  select {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    height: 23px;
+    margin: 0 0.7rem;
+    width: 100%;
+    color: $color-deepgray;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    z-index: 1;
+
+    &::-ms-expand {
+      display: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

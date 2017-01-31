@@ -1,0 +1,35 @@
+@import 'base';
+@import '~normalize.css/normalize';
+
+@font-face {
+  font-family: Lato;
+  src: url("./fonts/Lato-Regular.ttf");
+}
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  &:focus,
+  &:visited {
+    text-decoration: none!important;
+  }
+}

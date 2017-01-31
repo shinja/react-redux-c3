@@ -1,0 +1,54 @@
+@import "../../../../styles/variables/colors";
+
+.content-head {
+  overflow: hidden;
+  color: $color-main;
+  padding: 0 25px 10px;
+
+  .arrow {
+    margin-bottom: 30px;
+    position: relative;
+    border-top: 1px solid #d5d5d5;
+
+    span {
+      width: 0;
+      height: 0;
+      border-width: 15px;
+      border-style: solid;
+      position: absolute;
+      left: 49%;
+
+      &.triangle-border {
+        border-color: #999 transparent transparent transparent;
+        bottom: -30px;
+      }
+
+      &.triangle-inside {
+        border-color: #fff transparent transparent transparent;
+        bottom: -29px;
+        top: -1px;
+      }
+    }
+  }
+
+  h3 {
+    float: left;
+    font-size: 25px;
+  }
+
+  ul {
+    float: right;
+    padding-top: 10px;
+
+    li {
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 17px;
+
+      span {
+        font-size: 12px;
+        color: $color-deepgray;
+      }
+    }
+  }
+}

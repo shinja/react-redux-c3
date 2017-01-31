@@ -1,0 +1,86 @@
+@import "../../styles/variables/colors";
+@import "../../styles/variables/layout";
+
+.header {
+  overflow: hidden;
+  position: relative;
+  padding-top: 40px;
+  line-height: 1;
+
+  h1 {
+    font-size: 15px;
+    padding: 7px 14px;
+    background-color: $color-main;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .top-L {
+    float: left;
+
+    h2 {
+      font-size: 30px;
+      color: #3a4d6d;
+    }
+  }
+
+  .top-R {
+    float: right;
+
+    ul {
+      overflow: hidden;
+
+      li {
+        display: inline-block;
+        text-align: right;
+        line-height: 1.2;
+        font-size: 23px;
+        color: $color-main;
+        margin-left: 35px;
+
+        span {
+          display: block;
+          font-size: 10px;
+          color: #777c86;
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width:930px) {
+  .header {
+    padding: 40px 20px 0;
+
+    h1 {
+      left: 20px;
+    }
+  }
+}
+
+@media screen and(max-width:700px) {
+  .header {
+    padding-top: 35px;
+
+    h1 {
+      font-size: 14px;
+      padding: 6px 10px;
+    }
+
+    .top-L {
+      h2 {
+        font-size: 23px;
+      }
+    }
+
+    .top-R {
+      ul {
+        li {
+          font-size: 18px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

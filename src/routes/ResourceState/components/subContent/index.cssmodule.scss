@@ -1,0 +1,28 @@
+@import "../../../../styles/variables/colors";
+@import "../../../../styles/variables/layout";
+@import "../../../../styles/variables/resource";
+@import "./common";
+
+.content {
+  width: 100%;
+
+  article {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 15px;
+    margin-bottom: 15px;
+
+    .gridTable {
+      width: 100%;
+      font-size: smaller;
+    }
+  }
+}
+@media screen and(max-width:700px) {
+  .content {
+    article {
+      margin-bottom: 0;
+      display: block;
+    }
+  }
+}

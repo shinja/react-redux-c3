@@ -1,0 +1,23 @@
+@import "../../../../styles/variables/colors";
+@import "../../../../styles/variables/resource";
+
+.section {
+  float: left;
+  font-family: Lato;
+  color: #707884;
+  border: 1px solid $color-lightgray;
+  border-radius: 4px;
+  padding-bottom: 4px;
+  margin: 0 6px;
+
+  .chartHead {
+    background-color: #f5f6f8;
+    padding: 10px;
+    border-radius: 4px 4px 0 0;
+  }
+}
+@media screen and(max-width:700px) {
+  .section {
+    margin: 0 0 20px;
+  }
+}

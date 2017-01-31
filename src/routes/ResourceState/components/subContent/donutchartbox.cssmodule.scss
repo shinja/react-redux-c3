@@ -1,0 +1,60 @@
+@import "./common";
+
+.dountChart {
+  width: 100%;
+
+  .chartHead {
+    font-size: 14.5px;
+  }
+
+  .barchart-sub {
+    width: 100%;
+    overflow: hidden;
+
+    .SVGBox {
+      float: left;
+      width: 50%;
+      padding: 20px;
+    }
+
+    .InfoBox {
+      float: right;
+      width: 50%;
+      padding: 20px 10px;
+
+      table {
+        font-size: 12px;
+
+        span {
+          width: 18px;
+          height: 8px;
+          display: block;
+          border-radius: 10px;
+        }
+
+        tr {
+          td {
+            padding: 3px;
+
+            &.Totalamount {
+              color: #3ebebd;
+            }
+
+            &.Proportion {
+              color: #e79517;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width:700px) {
+  .dountChart {
+    width: 100%;
+
+    .chartHead {
+      font-size: 14px;
+    }
+  }
+}

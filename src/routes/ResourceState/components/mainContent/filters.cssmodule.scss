@@ -1,0 +1,28 @@
+@import "../../../../styles/variables/colors";
+
+.filterA {
+  border-radius: 4px 4px 0 0;
+  font-size: 12px;
+  line-height: 1;
+  background-color: $color-main;
+  padding: 13px 20px;
+
+  .filter-condition {
+    display: inline-block;
+    margin-right: 20px;
+
+    label {
+      color: #fff;
+      font-size: 13px;
+    }
+  }
+}
+
+.filterB {
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 1;
+  color: $color-deepgray;
+  box-shadow: 0 4px 5px -2px rgba(0, 0, 0, .2);
+}
