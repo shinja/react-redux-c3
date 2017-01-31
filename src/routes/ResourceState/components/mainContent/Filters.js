@@ -46,7 +46,6 @@ class Filters extends React.Component {
   }
 
   render () {
-
     const periods = this.props[FETCH_PERIODS_ASYNC] || []
 
     const resources = this.props[FILTER_RESOURCES] || []

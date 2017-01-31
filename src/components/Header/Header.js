@@ -5,7 +5,7 @@ import styles from './header.cssmodule.scss'
 const Header = (props) => {
   return (
     <header styleName='header center'>
-        <h2>Resource Usage Analysis</h2>
+      <h2>Resource Usage Analysis</h2>
     </header>
   )
 }

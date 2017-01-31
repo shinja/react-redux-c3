@@ -71,55 +71,55 @@ const getResourceStateData = (dispatch, getState, resolve) => {
       'TimePeriod': 'Jan-2017',
       'CPU': 103.679,
       'RAM': 11.818,
-      'Disk': 9274.913,
+      'Disk': 9274.913
     }, {
-      'TimePeriod': 'Dec-2016',
+      'TimePeriod': 'Dec-2016'
     }, {
-      'TimePeriod': 'Nov-2016',
+      'TimePeriod': 'Nov-2016'
     }, {
-      'TimePeriod': 'Oct-2016',
+      'TimePeriod': 'Oct-2016'
     }, {
-      'TimePeriod': 'Sep-2016',
+      'TimePeriod': 'Sep-2016'
     }, {
       'TimePeriod': 'Aug-2016',
       'CPU': 23646.075,
       'RAM': 81694.985,
-      'Disk': 25788.433,
+      'Disk': 25788.433
     }, {
       'TimePeriod': 'Aug-2016',
       'CPU': 2147.966,
       'RAM': 6086.141,
-      'Disk': 2493.443,
+      'Disk': 2493.443
     }, {
       'TimePeriod': 'Nov-2015',
       'CPU': 23434.118,
       'RAM': 70578.562,
-      'Disk': 32831.213,
+      'Disk': 32831.213
     }, {
       'TimePeriod': 'Oct-2015',
       'CPU': 24955.746,
       'RAM': 74671.132,
-      'Disk': 33750.414,
+      'Disk': 33750.414
     }, {
       'TimePeriod': 'Sep-2015',
       'CPU': 25005.849,
       'RAM': 73830.011,
-      'Disk': 33309.035,
+      'Disk': 33309.035
     }, {
       'TimePeriod': 'Aug-2015',
       'CPU': 26694.235,
       'RAM': 78673.066,
-      'Disk': 34532.667,
+      'Disk': 34532.667
     }, {
       'TimePeriod': 'Jul-2015',
       'CPU': 27782.282,
       'RAM': 78831.752,
-      'Disk': 35616.103,
+      'Disk': 35616.103
     }, {
       'TimePeriod': 'Jun-2015',
       'CPU': 31119.901,
       'RAM': 86689.24,
-      'Disk': 36565.582,
+      'Disk': 36565.582
     }]
   }
 
