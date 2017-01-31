@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/*
+.c3 .domain {
+  display: none;
+}
+
+.c3 .tick line {
+  display: none;
+}
+
+.c3 .tick text {
+  font: 12px Lato, sans-serif;
+  font-weight: bold;
+}
+
+.c3 .tick text tspan {
+  fill: #3e577f;
+}
+
+.c3 .tick text tspan.current {
+  fill: red;
+}
+
+.c3-xgrid, .c3-ygrid {
+  stroke-dasharray: none;
+}
+
+.c3-grid line {
+  stroke: #eee;
+}*/
