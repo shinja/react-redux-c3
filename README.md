@@ -7,5 +7,6 @@ $ npm run deploy:prod
 
 ```
 
+Based on https://github.com/davezuko/react-redux-starter-kit
 
 Demo Site: https://shinja.github.io/react-redux-c3/
